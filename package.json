@@ -2,9 +2,9 @@
 	"name": "learning-langgraphjs",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
 	"type": "module",
 	"scripts": {
+		"build": "tsc",
 		"dev": "npx @langchain/langgraph-cli@latest dev --no-browser"
 	},
 	"keywords": [],
@@ -19,6 +19,7 @@
 		"dotenv": "^16.4.7"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.4"
+		"@biomejs/biome": "1.9.4",
+		"typescript": "^5.8.2"
 	}
 }
