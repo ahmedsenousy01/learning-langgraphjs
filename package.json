@@ -10,7 +10,7 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"packageManager": "pnpm@10.7.0",
+	"packageManager": "pnpm@10.8.0",
 	"dependencies": {
 		"@langchain/community": "^0.3.38",
 		"@langchain/core": "^0.3.43",
